@@ -28,10 +28,12 @@ Model Used
 I trained a logistic regression model using scikit-learn. The dataset was split into 80% training and 20% testing using train_test_split.
 
 Setup & Installation
+
 Make sure you have the following installed:
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 Running the Code
+
 Download the Titanic dataset from Kaggle
 Place the CSV files (train.csv, test.csv) in your working directory
 Run the preprocessing, training, and prediction steps in your notebook or script
