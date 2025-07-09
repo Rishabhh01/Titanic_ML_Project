@@ -12,7 +12,7 @@ The dataset contains passenger-level information such as:
 - Fare
 - Family members aboard (SibSp, Parch)
 - Embarkation port
-- 
+  
 The target variable is Survived, which is binary (0 = did not survive, 1 = survived).
 
 Preprocessing
@@ -23,9 +23,18 @@ Key preprocessing steps included:
 - Sex mapped to 0 and 1
 - Embarked converted to one-hot encoded columns
 - Verifying all features were numeric before training
-- 
+  
 Model Used
 I trained a logistic regression model using scikit-learn. The dataset was split into 80% training and 20% testing using train_test_split.
+
+Setup & Installation
+Make sure you have the following installed:
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+Running the Code
+Download the Titanic dataset from Kaggle
+Place the CSV files (train.csv, test.csv) in your working directory
+Run the preprocessing, training, and prediction steps in your notebook or script
 
 Results
 - Model trained successfully without string-type errors
