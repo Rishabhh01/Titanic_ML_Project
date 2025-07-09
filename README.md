@@ -36,7 +36,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 Running the Code
 
 Download the Titanic dataset from Kaggle
+
 Place the CSV files (train.csv, test.csv) in your working directory
+
 Run the preprocessing, training, and prediction steps in your notebook or script
 
 Results
