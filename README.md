@@ -25,6 +25,7 @@ Key preprocessing steps included:
 - Verifying all features were numeric before training
   
 Model Used
+
 I trained a logistic regression model using scikit-learn. The dataset was split into 80% training and 20% testing using train_test_split.
 
 Setup & Installation
