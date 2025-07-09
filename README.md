@@ -35,11 +35,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 Running the Code
 
-Download the Titanic dataset from Kaggle
+  -Download the Titanic dataset from Kaggle
 
-Place the CSV files (train.csv, test.csv) in your working directory
+  -Place the CSV files (train.csv, test.csv) in your working directory
 
-Run the preprocessing, training, and prediction steps in your notebook or script
+  -Run the preprocessing, training, and prediction steps in your notebook or script
 
 Results
 - Model trained successfully without string-type errors
